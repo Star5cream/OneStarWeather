@@ -1,0 +1,119 @@
+/* Basic styling for the weather app */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-app {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .app-logo {
+    display: block;        /* Makes the image behave like a block-level element */
+    margin-left: auto;     /* Automatically adjusts the left margin */
+    margin-right: auto;    /* Automatically adjusts the right margin */
+    width: auto;
+    height: 50;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  .message-board {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  #cityInput {
+    padding: 10px;
+    width: 60%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #cityInput:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .weather-result {
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .encouragement {
+    font-size: 1.2rem;
+    color: #777;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .forecast-day {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-day img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .forecast-day p {
+    margin: 5px 0;
+  }
+  
